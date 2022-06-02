@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --container-full-width:100%;
+    --container-width: 1150px;
+}
+.containerr{
+    width:var(--container-full-width);
+}
+.container{
+    width: var(--container-width);
+    margin:auto;
+} 
+.thongtin{
+    display: flex;
+}
+.hoten{
+    font-size: 2em;
+}
+.thongtincanhan{
+    display: grid;
+    padding-left: 300px;
+}
+.thongtincanhan ul li{
+    list-style: none;
+}
+.thongtincanhan ul li a{
+    text-decoration: none;
+}
+.ketqua ul li{
+    list-style: none;
+}
+.ketqua ul li a{
+    text-decoration: none;
+}
+.thongtin1{
+    color:red;
+    font-size: 1.5em;
+    
+}
+.ketqua2{
+    display: flex;
+    width: 1200px;
+}
+.thongtin2{
+    display: flex;
+}
+.MAHP{
+    border: 1px solid black;
+}
+.MAHP1{
+    width: 300px;
+    height: 40px;
+    text-align:  center;
+}
+.MAHP2{
+    padding-left: 10px;
+}
+.TENHP{
+    border: 1px solid black;
+}
+.TENHP1{
+    width: 500px;
+    height: 40px;
+    text-align:  center;
+}
+.TENHP2{
+    padding-left: 10px;
+}
+.SOTC{
+    border: 1px solid black;
+}
+.SOTC1{
+    width: 100px;
+    height: 40px;
+    text-align:  center;
+}
+.SOTC2{
+    text-align: center ;
+}
+.DIEM{
+    width: 300px;
+    display:grid;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.he{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    height: 149px;
+}
+.he101{
+    width: 100px;
+
+}
+.he102{
+    text-align: center;
+}
+.diemchu1{
+    width: 100px;
+
+}
+.diemchu2{
+    text-align: center;
+}
+.he41{
+    width: 100px;
+
+}
+.he42{
+    text-align: center;
+}
+.sanpham1{
+    font-size: 1.5em;
+    color:red;
+}
+.sanphamcanhan{
+    display: flex;
+    column-gap: 50px;
+    font-size: 1.2em;
+}
+.thuvien{
+    padding-top: 30px;
+}
+.tong{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+}
+.tong1{
+    width: 300px;
+    height: 400px;
+
+}
+.tong2{
+    width: 600px;
+    height: 400px;
+
+    display: grid;
+}
+.tong2-1{
+    width: 600px;
+    height: 133px;
+
+}
+.tong2-2-1{
+    width: 600px;
+    height: 133px;
+
+    display: flex;
+}
+.tong2-2-2{
+    width: 600px;
+    height: 133px;
+
+    display: flex;
+}
+.tong2-2-1-1{
+    width: 300px;
+    height: 133px;
+
+}
+.tong2-2-1-2{
+    width: 300px;
+    height: 133px;
+
+}
+.tong2-2-2-1{
+    width: 300px;
+    height: 133px;
+
+}
+.tong2-2-2-2{
+    width: 300px;
+    height: 133px;
+
+}
+.tong3{
+    width: 300px;
+    height: 400px;
+
+    display: grid;
+}
+.tong3-1{
+    width: 300px;
+    height: 133px;
+
+}
+.tong3-2{
+    width: 300px;
+    height: 266px;
+}
